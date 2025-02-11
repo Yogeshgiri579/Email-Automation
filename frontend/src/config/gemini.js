@@ -9,7 +9,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 
 const MODEL_NAME ="gemini-1.5-flash";
-const API_KEY = "AIzaSyAnsop7tM2E4fKuhNdpVS03Vj-Z7f872PA";
+const API_KEY = process.env.API_KEY;
  
 
 
